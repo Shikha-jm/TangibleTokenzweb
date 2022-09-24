@@ -1,0 +1,93 @@
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('./Assets/Font/Montserrat.ttf');
+}
+@font-face {
+  font-family: "Raleway";
+  src: url('./Assets/Font/Raleway.ttf');
+}
+.container-wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+body{
+  font-family: "Montserrat" !important;
+  color: #232323 !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+}
+a{
+  color: #000 !important;
+}
+body h2{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+button.ant-btn.ant-btn-primary:hover, .search-top button:hover{
+  background-color: #4d4d4d !important;
+}
+.bold-txt{
+  font-weight: bold;
+}
+input::placeholder, textarea::placeholder{
+  color: #ff000087 !important;
+}
+input.send-btn {
+  background-color: #232323;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 8px 10px;
+  line-height: 1.42;
+  font-weight: 500;
+}
+.contact-form-sec {
+  padding: 40px 0 70px;
+}
+.form-contact {
+  max-width: 800px;
+  margin: auto;
+}
+.form-contact p {
+  margin: 0px;
+  padding-bottom: 12px;
+}
+input[type="text"]:focus, textarea:focus, button{
+  outline: 0px !important;
+  box-shadow: none !important;
+}
+
+.border-head{
+  border-bottom: 1px solid #E4E4E4;
+  padding-bottom: 20px;
+  font-size: 1.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+img{
+  width: 100%;
+}
+input{
+  background-color: white;
+  color: #333333;
+  border: 1px solid #d5d5d5;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+}
+input:focus {
+  box-shadow: 0 0 0 1px #2d2d2d;
+  border: 2px solid #2d2d2d;
+}
+
+input[type="submit"]{
+  width: auto;
+}
